@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1575386351002
+Build-Jdk: 1.8.0_91
+Built-By: CFP-6685
+Bundle-Category: library
+Bundle-Description: adasdasd
+Bundle-ManifestVersion: 2
+Bundle-Name: AAAAR001IMPL
+Bundle-SymbolicName: AAAAR001IMPL-1.0.0
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.bbva.aaaa.dto.customers;version="0.0",com.bbva.elara
+ .configuration.manager.application;version="0.0";resolution:=optional,c
+ om.bbva.elara.configuration.manager.application.factory;version="0.0";r
+ esolution:=optional,com.bbva.elara.library;version="0.0";resolution:=op
+ tional,com.bbva.aaaa.lib.r001;version="0.0",org.slf4j;version="0.0",org
+ .osgi.framework;version="0.0";resolution:=optional,com.bbva.elara.aspec
+ t;version="0.0";resolution:=optional,spring;version="0.0";resolution:=o
+ ptional,org.springframework.aop;version="0.0";resolution:=optional,org.
+ springframework.aop.framework;version="0.0";resolution:=optional,org.ao
+ palliance.aop;version="0.0";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645

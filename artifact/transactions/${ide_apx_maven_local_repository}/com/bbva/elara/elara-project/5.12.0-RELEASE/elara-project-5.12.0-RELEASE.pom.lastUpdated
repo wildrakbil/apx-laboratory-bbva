@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 03 10:56:04 COT 2019
+e1a688cf088154a7ad51799b3afadf182aadc44c@default-artifactory-APX-${ide_apx_maven_repository_url}/.lastUpdated=1575388561692
+${ide_apx_maven_repository_url}/.error=Could not transfer artifact com.bbva.elara\:elara-project\:pom\:5.12.0-RELEASE from/to artifactory-APX (${ide_apx_maven_repository_url})\: Cannot access ${ide_apx_maven_repository_url} with type default using the available connector factories\: BasicRepositoryConnectorFactory
+https\://repo.maven.apache.org/maven2/.lastUpdated=1575388564160
+https\://repo.maven.apache.org/maven2/.error=

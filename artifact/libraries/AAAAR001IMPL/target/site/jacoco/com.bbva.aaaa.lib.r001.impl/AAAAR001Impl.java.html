@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AAAAR001Impl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AAAAR001IMPL</a> &gt; <a href="index.source.html" class="el_package">com.bbva.aaaa.lib.r001.impl</a> &gt; <span class="el_source">AAAAR001Impl.java</span></div><h1>AAAAR001Impl.java</h1><pre class="source lang-java linenums">package com.bbva.aaaa.lib.r001.impl;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.bbva.aaaa.dto.customers.CustomerDTO;
+import com.bbva.aaaa.lib.r001.AAAAR001;
+
+<span class="fc" id="L13">public class AAAAR001Impl extends AAAAR001Abstract {</span>
+
+<span class="fc" id="L15">	private static final Logger LOGGER = LoggerFactory.getLogger(AAAAR001.class);</span>
+
+	@Override
+	public List&lt;CustomerDTO&gt; execute() {
+<span class="fc" id="L19">		List&lt;CustomerDTO&gt; customerList = new ArrayList&lt;CustomerDTO&gt;();</span>
+
+<span class="fc" id="L21">		CustomerDTO CustomerDTO = new CustomerDTO();</span>
+<span class="fc" id="L22">		CustomerDTO.setBirthDate(new Date());</span>
+<span class="fc" id="L23">		CustomerDTO.setCustomerId(&quot;001&quot;);</span>
+<span class="fc" id="L24">		CustomerDTO.setFristName(&quot;Jhon&quot;);</span>
+<span class="fc" id="L25">		CustomerDTO.setGenerarId(&quot;Male&quot;);</span>
+<span class="fc" id="L26">		CustomerDTO.setIdentityDocumentNumber(&quot;125457568s&quot;);</span>
+<span class="fc" id="L27">		CustomerDTO.setIdentityDocumentType(&quot;1&quot;);</span>
+<span class="fc" id="L28">		CustomerDTO.setLastName(&quot;Ferman&quot;);</span>
+<span class="fc" id="L29">		CustomerDTO.setMaritalStatus(&quot;Single&quot;);</span>
+<span class="fc" id="L30">		CustomerDTO.setNationality(&quot;EN&quot;);</span>
+<span class="fc" id="L31">		CustomerDTO.setPersonalTitle(&quot;Sr.&quot;);</span>
+<span class="fc" id="L32">		customerList.add(CustomerDTO);</span>
+
+<span class="fc" id="L34">		return customerList;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

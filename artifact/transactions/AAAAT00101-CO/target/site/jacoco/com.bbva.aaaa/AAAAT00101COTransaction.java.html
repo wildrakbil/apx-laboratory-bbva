@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AAAAT00101COTransaction.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AAAAT001</a> &gt; <a href="index.source.html" class="el_package">com.bbva.aaaa</a> &gt; <span class="el_source">AAAAT00101COTransaction.java</span></div><h1>AAAAT00101COTransaction.java</h1><pre class="source lang-java linenums">package com.bbva.aaaa;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.bbva.aaaa.dto.customers.CustomerDTO;
+import com.bbva.aaaa.lib.r001.AAAAR001;
+
+/**
+ * Codelab transaction
+ * Implementacion de logica de negocio.
+ * @author CFP-6685
+ *
+ */
+<span class="fc" id="L16">public class AAAAT00101COTransaction extends AbstractAAAAT00101COTransaction {</span>
+	
+<span class="fc" id="L18">	private static final Logger LOGGER = LoggerFactory.getLogger(AAAAT00101COTransaction.class);</span>
+
+	@Override
+	public void execute() {
+<span class="fc" id="L22">		AAAAR001 aaaaR001 = (AAAAR001)getServiceLibrary(AAAAR001.class);</span>
+<span class="fc" id="L23">		LOGGER.info(&quot;Execition of AAAAT00101COTransaction...&quot;);</span>
+<span class="fc" id="L24">		List&lt;CustomerDTO&gt; customerList = aaaaR001.execute();</span>
+<span class="fc" id="L25">		this.setEntitylist(customerList);</span>
+<span class="fc" id="L26">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
