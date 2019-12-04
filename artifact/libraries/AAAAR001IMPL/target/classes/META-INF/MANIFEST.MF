@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1575386351002
+Bnd-LastModified: 1575487899222
 Build-Jdk: 1.8.0_91
-Built-By: CFP-6685
+Built-By: AnDrEy
 Bundle-Category: library
 Bundle-Description: adasdasd
 Bundle-ManifestVersion: 2

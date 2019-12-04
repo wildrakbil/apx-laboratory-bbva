@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1575386336892
+Bnd-LastModified: 1575487891617
 Build-Jdk: 1.8.0_91
-Built-By: CFP-6685
+Built-By: AnDrEy
 Bundle-Category: library
 Bundle-Description: adasdasd
 Bundle-ManifestVersion: 2
@@ -9,8 +9,8 @@ Bundle-Name: AAAAR001
 Bundle-SymbolicName: AAAAR001-1.0.0
 Bundle-Version: 1.0.0
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.bbva.aaaa.lib.r001;uses:="com.bbva.aaaa.dto.customer
- s";version="1.0.0"
+Export-Package: com.bbva.aaaa.lib.r001;version="1.0.0";uses:="com.bbva.a
+ aaa.dto.customers"
 Import-Package: com.bbva.aaaa.dto.customers;version="0.0";resolution:=op
  tional,org.osgi.framework;version="0.0";resolution:=optional,com.bbva.e
  lara.aspect;version="0.0";resolution:=optional,spring;version="0.0";res

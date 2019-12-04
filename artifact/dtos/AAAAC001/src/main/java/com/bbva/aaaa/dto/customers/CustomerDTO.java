@@ -9,11 +9,11 @@ public class CustomerDTO extends AbstractDTO {
     private static final long serialVersionUID = 2931699728946609876L;
     
     private String customerId;
-    private String fristName;
+    private String firstName;
     private String lastName;
     private String nationality;
     private String personalTitle;
-    private String generarId;
+    private String genderId;
     private String identityDocumentType;
     private String identityDocumentNumber;
     private Date   birthDate;
@@ -24,12 +24,6 @@ public class CustomerDTO extends AbstractDTO {
 	}
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
-	}
-	public String getFristName() {
-		return fristName;
-	}
-	public void setFristName(String fristName) {
-		this.fristName = fristName;
 	}
 	public String getLastName() {
 		return lastName;
@@ -49,12 +43,7 @@ public class CustomerDTO extends AbstractDTO {
 	public void setPersonalTitle(String personalTitle) {
 		this.personalTitle = personalTitle;
 	}
-	public String getGenerarId() {
-		return generarId;
-	}
-	public void setGenerarId(String generarId) {
-		this.generarId = generarId;
-	}
+	
 	public String getIdentityDocumentType() {
 		return identityDocumentType;
 	}
@@ -79,12 +68,26 @@ public class CustomerDTO extends AbstractDTO {
 	public void setMaritalStatus(String maritalStatus) {
 		this.maritalStatus = maritalStatus;
 	}
+	
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getGenderId() {
+		return genderId;
+	}
+	public void setGenderId(String genderId) {
+		this.genderId = genderId;
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((customerId == null) ? 0 : customerId.hashCode());
-		result = prime * result + ((fristName == null) ? 0 : fristName.hashCode());
+		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		return result;
 	}
@@ -102,10 +105,10 @@ public class CustomerDTO extends AbstractDTO {
 				return false;
 		} else if (!customerId.equals(other.customerId))
 			return false;
-		if (fristName == null) {
-			if (other.fristName != null)
+		if (firstName == null) {
+			if (other.firstName != null)
 				return false;
-		} else if (!fristName.equals(other.fristName))
+		} else if (!firstName.equals(other.firstName))
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
@@ -117,7 +120,7 @@ public class CustomerDTO extends AbstractDTO {
 	
 	@Override
 	public String toString() {
-		return "CustomerDTO [customerId=" + customerId + ", fristName=" + fristName + ", lastName=" + lastName + "]";
+		return "CustomerDTO [customerId=" + customerId + ", fristName=" + firstName + ", lastName=" + lastName + "]";
 	}
 	
 	

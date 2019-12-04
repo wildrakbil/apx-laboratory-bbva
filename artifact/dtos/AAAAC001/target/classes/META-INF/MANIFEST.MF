@@ -1,5 +1,16 @@
 Manifest-Version: 1.0
-Built-By: CFP-6685
+Bnd-LastModified: 1575487611725
 Build-Jdk: 1.8.0_91
-Created-By: Maven Integration for Eclipse
-
+Built-By: AnDrEy
+Bundle-Category: dto
+Bundle-Description: Customers DTO
+Bundle-ManifestVersion: 2
+Bundle-Name: AAAAC001
+Bundle-SymbolicName: AAAAC001-1.0.0
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.aaaa.dto.customers;uses:="com.bbva.apx.dto";ver
+ sion="1.0.0"
+Import-Package: com.bbva.apx.dto;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645

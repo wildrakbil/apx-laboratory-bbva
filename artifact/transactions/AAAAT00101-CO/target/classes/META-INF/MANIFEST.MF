@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1575388598484
+Bnd-LastModified: 1575488564705
 Build-Jdk: 1.8.0_91
-Built-By: CFP-6685
+Built-By: AnDrEy
 Bundle-Activator: com.bbva.aaaa.AAAAT00101COTransaction
 Bundle-Category: transaction
 Bundle-Description: Codelab transaction
@@ -12,8 +12,9 @@ Bundle-Version: 01.0.0.CO
 Created-By: Apache Maven Bundle Plugin
 Export-Package: com.bbva.aaaa;uses:="com.bbva.aaaa.dto.customers,com.bbv
  a.elara.transaction";version="1.0.0"
-Import-Package: com.bbva.elara.transaction;version="0.0",com.bbva.aaaa.d
- to.customers;version="[1.0,2)",com.bbva.aaaa.lib.r001;version="0.0",org
- .slf4j;version="0.0"
+Import-Package: com.bbva.elara.domain.transaction;version="0.0",com.bbva
+ .elara.domain.transaction.response;version="0.0",com.bbva.elara.transac
+ tion;version="0.0",com.bbva.aaaa.dto.customers;version="[1.0,2)",com.bb
+ va.aaaa.lib.r001;version="0.0",org.slf4j;version="0.0"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-4.0.0.201805111645
